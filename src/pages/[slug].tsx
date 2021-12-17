@@ -29,6 +29,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 
   return {
     props: {
+      revalidate: 60 * 60 * 24, //1 por dia
       heading: page.heading,
       body: page.body.html
     }

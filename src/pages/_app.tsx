@@ -3,8 +3,8 @@ import Head from 'next/head'
 import NextNprogress from 'nextjs-progressbar'
 import SEO from '../../next-seo.config'
 
-import GlobalStyles from 'styles/global'
 import { DefaultSeo } from 'next-seo'
+import GlobalStyles from 'styles/global'
 
 function App({ Component, pageProps }: AppProps) {
   return (

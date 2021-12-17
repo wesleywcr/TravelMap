@@ -28,7 +28,7 @@ export default function PlacesTemplate({ place }: PlacesTemplateProps) {
   return (
     <>
       <NextSeo
-        title={`${place.name} - My Trips`}
+        title={`${place.name} - Travel Map`}
         description={
           place.description?.text ||
           'A simple project to show in a map the places that I went and show more informations and photos when clicked.'
@@ -36,7 +36,7 @@ export default function PlacesTemplate({ place }: PlacesTemplateProps) {
         canonical="https://mytrips.com"
         openGraph={{
           url: 'https://mytrips.com',
-          title: `${place.name} - My Trips`,
+          title: `${place.name} - Travel Map`,
           description:
             place.description?.text ||
             'A simple project to show in a map the places that I went and show more informations and photos when clicked.',
