@@ -14,7 +14,8 @@
 <br />
 
 # 📕 About
-
+TravelMap is a project with the location of tourist points.
+</br>
 </br>
 
 # 🛠️Technologies 
